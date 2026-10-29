@@ -1,5 +1,4 @@
 :root { --fg:#1f1a14; --bg:#f6ebd0; --muted:#5e533f; --accent:#0b3d91; --rule:#d8c9a3; --tint:#fbf4e2; --head:#330000; }
-@media (prefers-color-scheme: dark) { :root { --fg:#e8e8e8; --bg:#16181c; --muted:#a0a4ab; --accent:#8ab4ff; --rule:#33373d; --tint:#1d2128; --head:#e8c9a0; } }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--bg); color:var(--fg); font:18px/1.55 Georgia, "Times New Roman", serif; }
 main, header.site, footer.site { max-width:42rem; margin:0 auto; padding:0 16px; }
