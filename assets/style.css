@@ -1,5 +1,5 @@
-:root { --fg:#1a1a1a; --bg:#fff; --muted:#555; --accent:#0b3d91; --rule:#d0d4da; }
-@media (prefers-color-scheme: dark) { :root { --fg:#e8e8e8; --bg:#16181c; --muted:#a0a4ab; --accent:#8ab4ff; --rule:#33373d; } }
+:root { --fg:#1a1a1a; --bg:#fff; --muted:#555; --accent:#0b3d91; --rule:#d0d4da; --tint:#f4f6fa; }
+@media (prefers-color-scheme: dark) { :root { --fg:#e8e8e8; --bg:#16181c; --muted:#a0a4ab; --accent:#8ab4ff; --rule:#33373d; --tint:#1d2128; } }
 * { box-sizing: border-box; }
 body { margin:0; background:var(--bg); color:var(--fg); font:18px/1.55 Georgia, "Times New Roman", serif; }
 main, header.site, footer.site { max-width:42rem; margin:0 auto; padding:0 16px; }
@@ -16,7 +16,13 @@ table { border-collapse:collapse; width:100%; font-size:.95rem; }
 th, td { border:1px solid var(--rule); padding:.35rem .5rem; text-align:left; vertical-align:top; }
 ul.issues { list-style:none; padding:0; } ul.issues li { padding:.5rem 0; border-bottom:1px solid var(--rule); }
 footer.site { color:var(--muted); font-size:.85rem; padding-top:2rem; padding-bottom:2rem; font-family:Arial, Helvetica, sans-serif; }
+/* side box: standing info + links to ns9rc.org pages; write as ::: aside ... ::: in issue.md */
+.aside { float:right; width:15rem; margin:.25rem 0 1rem 1.25rem; padding:.6rem .8rem; background:var(--tint); border:1px solid var(--rule); border-left:4px solid var(--accent); font:.88rem/1.4 Arial, Helvetica, sans-serif; }
+.aside h3 { margin:0 0 .35rem; font-size:1rem; } .aside p { margin:0 0 .4rem; } .aside ul { margin:0; padding-left:1.1rem; } .aside li { margin:0 0 .25rem; }
+h2 { clear:both; }
+@media (max-width:40rem) { .aside { float:none; width:auto; margin:1rem 0; } }
 @media print {
+  .aside { break-inside:avoid; background:none; }
   :root { --fg:#000; --bg:#fff; --muted:#333; --accent:#000; }
   body { font-size:11pt; line-height:1.4; } main, header.site, footer.site { max-width:none; padding:0; }
   header.site .tag, nav.noprint { display:none; }
