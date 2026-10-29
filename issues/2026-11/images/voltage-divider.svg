@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-label="Voltage divider schematic">
+<rect width="560" height="300" rx="8" fill="#fffaf0" stroke="#d8c9a3"/>
+<g fill="none" stroke="#330000" stroke-width="3" stroke-linejoin="round">
+<path d="M60 50 H240 M240 50 V70 L228 78 L252 94 L228 110 L252 126 L240 134 V150 M240 150 V170 L228 178 L252 194 L228 210 L252 226 L240 234 V250 M60 250 H440 M240 150 H380"/>
+<path d="M60 50 V110 M60 190 V250"/>
+<path d="M45 110 H75 M52 122 H68" stroke-width="4"/>
+</g>
+<circle cx="380" cy="150" r="5" fill="#330000"/><circle cx="240" cy="150" r="4" fill="#330000"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#330000">
+<text x="100" y="156" font-size="15">Vin (9 V)</text><text x="264" y="108">R1  10 kΩ</text><text x="264" y="212">R2  10 kΩ</text>
+<text x="392" y="144">Vout</text><text x="392" y="166" font-size="14">(4.5 V, in theory)</text><text x="440" y="270" font-size="13" text-anchor="end">GND (the floor)</text>
+<text x="280" y="290" font-size="12" text-anchor="middle" font-style="italic">Fig. 1  Every circuit in your shack. Allegedly.</text>
+</g></svg>

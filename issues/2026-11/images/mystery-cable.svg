@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" role="img" aria-label="Cartoon of the mystery cable under the table">
+<rect width="560" height="270" rx="8" fill="#fffaf0" stroke="#d8c9a3"/>
+<rect x="60" y="60" width="440" height="22" rx="4" fill="#a9794a" stroke="#330000" stroke-width="3"/>
+<path d="M90 82 V200 M470 82 V200" stroke="#330000" stroke-width="10"/>
+<path d="M120 200 C170 120 230 230 290 170 S400 120 430 190 S300 215 250 190" fill="none" stroke="#330000" stroke-width="7" stroke-linecap="round"/>
+<rect x="215" y="150" width="130" height="30" rx="4" fill="#f5e6c4" stroke="#330000" stroke-width="2" transform="rotate(-8 280 165)"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#330000" text-anchor="middle">
+<text x="278" y="168" font-size="14" transform="rotate(-8 280 165)">LOAD-BEARING</text>
+<text x="280" y="50" font-size="13">the table (folding, returned)</text>
+<text x="280" y="258" font-size="12" font-style="italic">Fig. 3  The cable. Do not touch the cable.</text></g></svg>

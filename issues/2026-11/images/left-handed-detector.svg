@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" role="img" aria-label="Block diagram of the left-handed smoke detector">
+<rect width="560" height="220" rx="8" fill="#fffaf0" stroke="#d8c9a3"/>
+<g stroke="#330000" stroke-width="3" fill="#f5e6c4" font-family="Arial,Helvetica,sans-serif" font-size="14">
+<rect x="20" y="70" width="110" height="60" rx="6"/><rect x="190" y="70" width="110" height="60" rx="6"/><rect x="360" y="70" width="110" height="60" rx="6"/>
+</g>
+<g stroke="#330000" stroke-width="3" fill="none"><path d="M130 100 H190 M300 100 H360 M470 100 H525"/><path d="M180 94 l10 6 -10 6 M350 94 l10 6 -10 6 M515 94 l10 6 -10 6"/></g>
+<g font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#330000" text-anchor="middle">
+<text x="75" y="96">Smoke</text><text x="75" y="114">(any kind)</text>
+<text x="245" y="96">Is it left-</text><text x="245" y="114">handed?</text>
+<text x="415" y="96">Beep</text><text x="415" y="114">(sometimes)</text>
+<text x="530" y="140" font-size="12">??</text>
+<text x="245" y="160" font-size="12" font-style="italic">no → ignore it entirely</text>
+<text x="280" y="204" font-size="12" font-style="italic">Fig. 2  Block diagram, approximately.</text></g></svg>
